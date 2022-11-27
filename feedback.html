@@ -1,0 +1,50 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="all/bootstrap.css" rel="stylesheet"/>
+<script src="js/bootstrap.bundle.js"></script>
+<style>
+.a
+{
+background:skyblue;
+}
+</style>
+</head>
+<body>
+<!--start modal -->
+<b class="btn btn-outline-info " data-bs-toggle="modal" data-bs-target="#box">Feedback</b>
+
+<!-- Modal -->
+<div class="modal fade " id="box" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content a">
+	<div class="modal-body px-4">
+	<b class="text-danger float-end " data-bs-dismiss="modal"><i class="fa-solid fa-circle-xmark">
+	</i></b>
+      <p class="text-center fs-3">Your Valuable <b class="text-warning">Feedback</b>
+	  <p>We appriciate to your valuable feedback and we are always focused on it .</p>
+	  <span class="fs-3"> Add Your Feedback</span></br>
+	 Your Name :<br/>
+	 <div class="input-group">
+	 <input type="text" placeholder="Enter Your Name..." class="form-control"/> 
+	 </div>
+	 You're From :<br/>
+	 <div class="input-group">
+	 <input type="text" placeholder="Enter Your College..." class="form-control"/> 
+	 </div><br/>
+	 Your feedback :<br/>
+	 <div class="input-group mt-3">
+	 <textarea type="text" placeholder="Your valuable feedback"></textarea>
+	 </div>
+	 Your Image :<br/>
+	 <input type="file"/>
+	 <div>
+	 <input type="submit" value="SEND FEEDBACK" class="btn btn-outline-warning mt-3"/></div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!--end modal -->
+</body>
+</html>
